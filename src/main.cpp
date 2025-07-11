@@ -1,15 +1,15 @@
 #include <Arduino.h>
 
 // OTA Hub via GitHub
-#define OTAGH_OWNER_NAME "Hard-Stuff"
+#define OTAGH_OWNER_NAME "84ace"
 #define OTAGH_REPO_NAME "OTA-Hub-diy-example_project"
 #include <ota-github-cacerts.h>
 #include <ota-github-defaults.h>
 #include <OTA-Hub.hpp>
 
 // Networking
-static const char *WIFI_SSID = "Hard-Stuff.com";
-static const char *WIFI_PASS = "password";
+static const char *WIFI_SSID = "ShelveNET";
+static const char *WIFI_PASS = "buttpiratry";
 
 #include <WiFiClientSecure.h>
 WiFiClientSecure wifi_client;
